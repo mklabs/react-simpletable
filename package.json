@@ -1,6 +1,6 @@
 {
   "name": "react-simpletable",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple Table component for react with basic sorting /  filtering",
   "main": "src/index.js",
   "scripts": {
