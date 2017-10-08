@@ -1,7 +1,6 @@
-
-import React, { PropTypes } from 'react';
-import { v4 } from 'uuid';
-import moment from 'moment';
+const React = require('react');
+const moment = require('moment');
+const v4 = require('uuid').v4;
 
 const get = (obj, key) => {
   const parts = key.split('.');
