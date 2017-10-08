@@ -10,7 +10,7 @@ const get = (obj, key) => {
   }, obj);
 };
 
-export class Table extends React.Component {
+class Table extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -137,7 +137,7 @@ export class Table extends React.Component {
   }
 }
 
-export class Th extends React.Component {
+class Th extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -159,7 +159,7 @@ export class Th extends React.Component {
   }
 }
 
-export class Td extends React.Component {
+class Td extends React.Component {
   render() {
     if (!this.props.render) return (
       <div>
@@ -174,3 +174,7 @@ export class Td extends React.Component {
     );
   }
 }
+
+exports.Table = Table;
+exports.Th = Th;
+exports.Td = Td;
